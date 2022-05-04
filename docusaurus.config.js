@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jump-king-multiplayer', // Usually your GitHub org/user name.
+  organizationName: 'Jump-King-Modding-Platform', // Usually your GitHub org/user name.
   projectName: 'JKMP', // Usually your repo name.
 
   plugins: [
@@ -28,7 +28,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Jump-King-Multiplayer/docs/tree/main/',
+          editUrl: 'https://github.com/Jump-King-Modding-Platform/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/Jump-King-Multiplayer',
+            href: 'https://github.com/Jump-King-Modding-Platform',
             label: 'GitHub',
             position: 'right',
           }
@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Jump-King-Multiplayer',
+                href: 'https://github.com/Jump-King-Modding-Platform',
               },
             ],
           },

@@ -55,4 +55,4 @@ After installing you can find the tool by searching for ```MonoGame Pipeline``` 
 ## Copy to game directory
 When you want to test your plugin, you can copy it to the following game directory: ```Jump King\JKMP\Plugins\MyContentPlugin```.
 
-You could also just develop the plugin from the game directory if you want.
+You can also just develop the plugin from the game directory if you want.

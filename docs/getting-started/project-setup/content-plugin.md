@@ -20,7 +20,7 @@ An example of the metadata file is shown below:
     "dependencies": {
         "SomePlugin": "^1.0.0" // A version range, same syntax as npm if you're familiar with it.
     },
-    "onlyContent": true // This is a flag that tells Core that this plugin only contains content, so no dll will be loaded.
+    "onlyContent": true // This is a flag that tells Core that this plugin only contains content.
 }
 ```
 

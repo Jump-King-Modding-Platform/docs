@@ -9,7 +9,7 @@ To start modding Jump King using JKMP you'll need an IDE such as Visual Studio o
 Below you'll find some instructions for each of them, use the one you prefer.
 
 :::note
-If you're only looking to replace existing content in the game or from another mod, or generally make a mod that doesn't require any code, you can skip to [Project Setup](./project-setup).
+If you're only looking to replace existing content in the game or from another mod, or generally make a mod that doesn't require any code, you can skip to [Create a content-only plugin](./project-setup/content-plugin.md).
 :::
 
 ## Choosing an IDE

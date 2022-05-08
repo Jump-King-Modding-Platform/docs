@@ -36,18 +36,3 @@ This option generally supports any editor since you'll be doing the compiling fr
 Note that you'll need both the x86 and x64 version if your operating system is 64-bit.
 
 In addition you'll also need [.NET Framework 4.6.2 Developer Pack](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net462-developer-pack-offline-installer).
-
-## Optional: Install project templates
-To make developing plugins easier there is a template package available that offers JKMP related project templates.
-
-For now there is only a plugin template, in the future there may be more.
-
-To install, you'll need to install the .NET SDK [mentioned above](#option-3-other-using-net-sdk).
-
-Next, open a command prompt/terminal window and type the following command. It will install the templates globally on your computer. The same command can be used to update to the latest version.
-
-```powershell
-dotnet new --install JKMP.ProjectTemplates
-```
-
-Now the templates are installed and are ready to be used.

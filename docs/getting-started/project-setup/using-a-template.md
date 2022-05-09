@@ -15,6 +15,10 @@ dotnet new --install JKMP.ProjectTemplates
 ```
 
 ## Create the project
+:::tip
+If you're using Visual Studio you can use the New Project wizard instead. You should see JKMP Plugin in the list of templates.
+:::
+
 Open a command prompt/terminal in the folder that you want to create the project, and then type the following command:
 
 ```powershell

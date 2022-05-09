@@ -1,5 +1,6 @@
 ---
 title: Plugin Metadata
+sidebar_position: 2
 ---
 
 :::caution

@@ -1,5 +1,6 @@
 ---
 title: Input Mapping
+sidebar_position: 6
 ---
 
 :::caution

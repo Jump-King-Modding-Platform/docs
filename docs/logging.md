@@ -1,5 +1,6 @@
 ---
 title: Logging
+sidebar_position: 4
 ---
 
 :::caution

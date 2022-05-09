@@ -1,5 +1,6 @@
 ---
 title: Content
+sidebar_position: 3
 ---
 
 :::caution

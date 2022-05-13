@@ -3,6 +3,7 @@ title: Content
 sidebar_position: 3
 ---
 
+## Introduction
 All plugins have a ```Content``` directory that will be searched when looking for content.
 
 When the game and plugins attempt to load content via the ```ContentManager``` class, it will search in each plugin's ```Content``` folder, prioritizing the last loaded plugin.

@@ -3,6 +3,7 @@ title: Plugin Metadata
 sidebar_position: 2
 ---
 
+## Introduction
 The plugin metadata file is a JSON formatted file that contains information about the plugin.
 
 It is located in the root of the plugin directory, and is named ```plugin.json```. It is required for the plugin to load.

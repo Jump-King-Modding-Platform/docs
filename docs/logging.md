@@ -10,7 +10,12 @@ Log messages are displayed in the console and appended to a log file located in 
 
 This guide will only cover basic usage, but if you want to learn more you should check out the [Serilog wiki](https://github.com/serilog/serilog/wiki).
 
-## Setup a contextual logger
+## Logging types
+There are two methods of logging you can choose from:
+
+### 1. Contextual logger
+Mainly used for logging messages that should be included with the released plugin. Should not be used for temporary debugging messages.
+
 To get started, you need to add a logger to your class. This should be done for each class (and optionally context) that needs to log something and not globally.
 
 ```csharp title=MyPlugin.cs
@@ -28,11 +33,13 @@ public class MyPlugin : JKMP.Core.Plugins.Plugin
 }
 ```
 
-## Use a temporary logger
-You can also use ```LogManager.TempLogger``` if you need to quickly debug something.
+### 2. Temporary logger
+Mainly used for logging messages that are temporary and not meant to be included with the released plugin.
+
+It is just a static readonly ```ILogger``` called ```LogManager.TempLogger```.
 
 :::caution
-Refrain from using this in a release build as it would be difficult to locate the source of the message.
+Refrain from including this in a release as it would be difficult to locate the source of the message.
 :::
 
 ```csharp title=MyPlugin.cs
@@ -54,3 +61,7 @@ If you want to change the format of the output message, or change the minimum vi
 The documentation for the template format can be [found here](https://github.com/serilog/serilog/wiki/Formatting-Output).
 
 The default log configuration ignores verbose messages. If you want to show verbose messages, you can do so by changing ```MinimumLogLevel``` to ```Verbose```.
+
+:::note
+Changing the log configuration only affects your installation. Therefore changing it is only useful for development purposes.
+:::

@@ -16,7 +16,11 @@ There are two methods of logging you can choose from:
 ### 1. Contextual logger
 Mainly used for logging messages that should be included with the released plugin. Should not be used for temporary debugging messages.
 
-To get started, you need to add a logger to your class. This should be done for each class (and optionally context) that needs to log something and not globally.
+To get started, you need to add a logger to your class. This should be done for each class (and optionally context) that needs to log something.
+
+:::note
+Do not use a single logger for the entire plugin unless the plugin is very simple.
+:::
 
 ```csharp title=MyPlugin.cs
 using JKMP.Core.Logging;

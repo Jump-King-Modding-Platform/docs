@@ -48,6 +48,3 @@ if (myAction.IsPressed)
     // Do something
 }
 ```
-
-## Input manager
-The static ```InputManager``` class is used to control the input system. It can be used to disable the input system for example, or to poll raw keybinds directly (useful for debugging, but not recommended for normal use).

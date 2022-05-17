@@ -21,11 +21,11 @@ It is located in the root of the plugin directory, and is named ```plugin.json``
 
 ## Examples
 
-### CustomMaps
-```json title=plugin.json
+### Basic plugin
+```json title=Speedrun/plugin.json
 {
-  "name": "Custom Map Support",
-  "description": "Adds support for custom maps. This plugin does not add any maps to the game.",
+  "name": "Speedrunning Support",
+  "description": "Adds support for speedrunning tools.",
   "version": "1.5.1",
   "authors": [
     "Some Person"
@@ -35,17 +35,17 @@ It is located in the root of the plugin directory, and is named ```plugin.json``
 }
 ```
 
-### BabeOfTheMoon
-```json title=plugin.json
+### Plugin with a dependency
+```json title=PreciseTimer/plugin.json
 {
-  "name": "Babe of the Moon",
-  "description": "A custom made map located on the moon.",
+  "name": "Precise Timer",
+  "description": "Adds a precise timer to the speedrunning plugin.",
   "version": "1.0.0",
   "authors": [
     "Some Other Person"
   ],
   "onlyContent": true,
   "dependencies": {
-    "CustomMaps": "^1.5" // Compatible with any version between >=1.5.0 and <2.0.0-0
+    "Speedrun": "^1.5" // Compatible with any version between >=1.5.0 and <2.0.0-0
 }
 ```
